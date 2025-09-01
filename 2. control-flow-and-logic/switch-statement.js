@@ -12,4 +12,6 @@ switch (day) {
     default:
         console.log('It\'s another day of the week');
         break;
-} // It's another day of the week
+}
+
+// It's another day of the week
