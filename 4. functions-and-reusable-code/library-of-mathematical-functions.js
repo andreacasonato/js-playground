@@ -25,7 +25,6 @@ console.log(multiply(a, b)); // 50
 console.log(divide(a, b)); // 2
 
 
-
 // Better syntax
 // Romoved the curly braces and return keyword, since each function contains a single return statement
 
