@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 3rem;
+    perspective: 1000px;
+}
+
+.card {
+    padding: 2rem 2rem;
+    border-radius: 8px;
+    border: 1px solid #222;
+    width: 40vw;
+    cursor: pointer;
+    transition: transform 0.6s;
+}
+
+.card h1 {
+    font-size: 2.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card button {
+    padding: 0.8rem 1.6rem;
+    border-radius: 8px;
+    border: 1px solid #222;
+    cursor: pointer;
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
