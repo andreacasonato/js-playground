@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+div {
+    padding: 3rem;
+}
+
+div:hover {
+    cursor: pointer;
+}
+
+.on {
+    background-color: yellow;
+    color: black;
+}
+
+.off {
+    background-color: gray;
+    color: white;
+}
