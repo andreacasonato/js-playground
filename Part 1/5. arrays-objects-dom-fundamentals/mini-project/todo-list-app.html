@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Todo List App</title>
+    <link rel="stylesheet" href="todo-list-app.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Todo List</h1>
+        
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="What needs to be done?" />
+            <button class="add-btn" id="addBtn">+ Add Task</button>
+        </div>
+        
+        <ul class="todo-list" id="todoList"></ul>
+        
+        <div class="stats" id="stats" style="display: none;">
+            <span id="totalTasks">0</span> total tasks • 
+            <span id="completedTasks">0</span> completed • 
+            <span id="pendingTasks">0</span> pending
+        </div>
+    </div>
+
+    <script src="todo-list-app.js"></script>
+</body>
+</html>
