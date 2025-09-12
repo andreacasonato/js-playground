@@ -10,6 +10,7 @@ let a = prompt('Enter the value for side a:')
 let b = prompt('Enter the value for side b:')
 
 // Convert string input to numbers
+// Using parseFloat() because I expect decimal numbers too.
 a = parseFloat(a);
 b = parseFloat(b);
 
