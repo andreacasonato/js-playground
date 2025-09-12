@@ -1,4 +1,4 @@
-//Create a variable stringNumber with the value "100".
+// Create a variable stringNumber with the value "100".
 // Convert it to a number using the Number() function and store it in a new variable. Log the type and value of this new variable to the console.
 // Create a variable actualNumber with the value 55.
 // Convert it to a string using the String() function and store it in a new variable. Log the type and value of this new variable to the console.

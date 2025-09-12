@@ -5,7 +5,7 @@
 
 let sentence = 'JavaScript is fun!';
 
-console.log(sentence.length);
-console.log(sentence.toUpperCase());
+console.log(sentence.length); // 18
+console.log(sentence.toUpperCase()); // JAVASCRIPT IS FUN!
 
-console.log(sentence.substring(11, 13))
+console.log(sentence.substring(11, 13)) // is

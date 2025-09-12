@@ -9,5 +9,5 @@ let radius = 5;
 let circleArea = PI * radius;
 let circleCircumference = 2 * PI * radius;
 
-console.log(circleArea);
-console.log(circleCircumference);
+console.log(circleArea); // 15.70795
+console.log(circleCircumference); // 31.4159
