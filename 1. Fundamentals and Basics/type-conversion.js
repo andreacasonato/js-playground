@@ -4,9 +4,9 @@
 // Convert it to a string using the String() function and store it in a new variable. Log the type and value of this new variable to the console.
 
 let stringNumber = '100';
-let newNumber = parseInt(stringNumber);
-console.log(typeof newNumber, newNumber); // Number
+let newNumber = Number(stringNumber);
+console.log(typeof newNumber, newNumber); // number 100
 
 let actualNumber = 55;
-let oddNumber = String(actualNumber);
-console.log(typeof oddNumber, oddNumber); // String
+let numberAsString = String(actualNumber);
+console.log(typeof numberAsString, numberAsString); // string 55
