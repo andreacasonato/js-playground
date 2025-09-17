@@ -46,4 +46,4 @@ console.log(shoppingList);
 console.log(shoppingList.lastIndexOf('Pop'));
 
 // Final list
-console.log('Final list:', shoppingList);
+console.log('Final list:', shoppingList); // ["Bananas", "Carrots", "Lettuce", "Eggs", "Milk", "Juice", "Pop", "Juice", "Pop"]

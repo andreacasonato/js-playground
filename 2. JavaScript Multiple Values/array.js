@@ -5,8 +5,8 @@
 
 let shoppingList = ['Milk', 'Bread', 'Apples'];
 
-console.log(shoppingList.length);
+console.log(shoppingList.length); // 3
 
 shoppingList[1] = 'Bananas';
 
-console.log(shoppingList);
+console.log(shoppingList); // ["Milk", "Bananas", "Apples"]
