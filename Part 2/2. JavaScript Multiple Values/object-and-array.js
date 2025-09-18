@@ -28,3 +28,10 @@ let friendThree = {
 people.friends.push(friendOne, friendTwo, friendThree);
 
 console.log(people);
+// {
+//   friends: [
+//     { firstName: 'Paul', lastName: 'Green', id: 1 },
+//     { firstName: 'John', lastName: 'Freeman', id: 2 },
+//     { firstName: 'Thomas', lastName: 'Allen', id: 3 }
+//   ]
+// }
