@@ -5,3 +5,11 @@
 // Find the position of "fun"
 // Extract just "JavaScript"
 
+let phrase = "JavaScript is fun";
+
+console.log(phrase.toUpperCase());
+console.log(phrase.length);
+console.log(phrase.indexOf("fun"));
+console.log(phrase.slice(0, 10));
+
+console.log(phrase);
