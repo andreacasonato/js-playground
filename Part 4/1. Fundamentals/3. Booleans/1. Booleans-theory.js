@@ -6,9 +6,9 @@
 // false --> This means "no" or "incorrect"
 
 // CREATING BOOLEANS
-// let isActive = true;
-// let isCompleted = false;
-// let hasPermission = true;
+let isActive = true;
+let isCompleted = false;
+let hasPermission = true;
 
 // ======================================== //
 
